@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Cuentas_x_CobrarContext-Web.config Connection String" description="Cuentas_x_CobrarContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Cuentas_x_CobrarContext-20171124194826; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|Cuentas_x_CobrarContext-20171124194826.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Angel\ Lizander\\Downloads\\Cuentas\ x\ Cobrar\\Cuentas\ x\ Cobrar\\Cuentas\ x\ Cobrar\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Cuentas_x_CobrarContext']/@connectionString" />
+  </parameter>
+</parameters>

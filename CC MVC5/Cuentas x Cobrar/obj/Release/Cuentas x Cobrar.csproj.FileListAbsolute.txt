@@ -1,0 +1,112 @@
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\ApplicationInsights.config
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Cuentas x Cobrar.dll.config
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Cuentas x Cobrar.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Cuentas x Cobrar.pdb
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Antlr3.Runtime.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.SqlServer.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.Web.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Newtonsoft.Json.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Helpers.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Mvc.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Optimization.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Razor.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Razor.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\WebGrease.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\CuentasPorCobrar.Domain.pdb
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\CuentasPorCobrar.Domain.dll.config
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.SqlServer.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Helpers.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Mvc.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Optimization.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Razor.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Razor.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Antlr3.Runtime.pdb
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Newtonsoft.Json.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.Web.xml
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Razor.resources.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.csprojResolveAssemblyReference.cache
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.csproj.CoreCompileInputs.cache
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.pdb
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\ApplicationInsights.config
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Cuentas x Cobrar.dll.config
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Cuentas x Cobrar.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Cuentas x Cobrar.pdb
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Antlr3.Runtime.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.SqlServer.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.Web.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Newtonsoft.Json.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Helpers.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Mvc.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Optimization.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Razor.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Razor.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\WebGrease.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\CuentasPorCobrar.Domain.pdb
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\CuentasPorCobrar.Domain.dll.config
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\EntityFramework.SqlServer.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Helpers.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Mvc.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Optimization.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.Razor.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\System.Web.WebPages.Razor.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Antlr3.Runtime.pdb
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Newtonsoft.Json.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\Microsoft.AI.Web.xml
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.Razor.resources.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.csprojResolveAssemblyReference.cache
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.csproj.CoreCompileInputs.cache
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Cuentas x Cobrar\obj\Release\Cuentas x Cobrar.pdb

@@ -1,0 +1,12 @@
+C:\Users\CASTILLO\Downloads\Cuentas x Cobrar (1)\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Debug\CuentasPorCobrar.Domain.dll.config
+C:\Users\CASTILLO\Downloads\Cuentas x Cobrar (1)\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Debug\CuentasPorCobrar.Domain.dll
+C:\Users\CASTILLO\Downloads\Cuentas x Cobrar (1)\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Debug\CuentasPorCobrar.Domain.pdb
+C:\Users\CASTILLO\Downloads\Cuentas x Cobrar (1)\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Debug\CuentasPorCobrar.Domain.dll
+C:\Users\CASTILLO\Downloads\Cuentas x Cobrar (1)\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Debug\CuentasPorCobrar.Domain.pdb
+C:\Users\CASTILLO\Downloads\Cuentas x Cobrar (1)\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Debug\CuentasPorCobrar.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Debug\CuentasPorCobrar.Domain.dll.config
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Debug\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Debug\CuentasPorCobrar.Domain.pdb
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Debug\CuentasPorCobrar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Debug\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Debug\CuentasPorCobrar.Domain.pdb

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CuentasxCobrar" Class="CuentasPorCobrarContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=angellizander.database.windows.net;Initial Catalog=CuentasxCobrar;User ID=angellizander" SettingsObjectName="CuentasPorCobrar.Domain.Properties.Settings" SettingsPropertyName="CuentasxCobrarConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Usuarios" Member="Usuarios">
+    <Type Name="Usuarios">
+      <Column Name="Usuario" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Privilegio" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Clientes" Member="Clientes">
+    <Type Name="Clientes">
+      <Column Name="IDClientes" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="Cedula" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Credito" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Limite" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Clientes_Asientos" Member="Asientos" ThisKey="IDClientes" OtherKey="IDClientes" Type="Asientos" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CuentasContable" Member="CuentasContable">
+    <Type Name="CuentasContable">
+      <Column Name="IDCuentasContables" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CuentasContables" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="CuentasContable_TipoDocumentos" Member="TipoDocumentos" ThisKey="IDCuentasContables" OtherKey="Cuentacontable" Type="TipoDocumentos" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Transacciones" Member="Transacciones">
+    <Type Name="Transacciones">
+      <Column Name="IDTransacciones" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TipoMovimiento" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="IDTipoDocumento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDCliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Monto" Type="System.Decimal" DbType="Decimal(5,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TipoDocumentos" Member="TipoDocumentos">
+    <Type Name="TipoDocumentos">
+      <Column Name="IDDocumentos" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Descripcion" Type="System.String" DbType="VarChar(90)" CanBeNull="true" />
+      <Column Name="Cuentacontable" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="CuentasContable_TipoDocumentos" Member="CuentasContable" ThisKey="Cuentacontable" OtherKey="IDCuentasContables" Type="CuentasContable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Asientos" Member="Asientos">
+    <Type Name="Asientos">
+      <Column Name="IDAsientos" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Descripcion" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="IDClientes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cuenta" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TipoMovimiento" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="FechaAsiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MontoAsiento" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Clientes_Asientos" Member="Clientes" ThisKey="IDClientes" OtherKey="IDClientes" Type="Clientes" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

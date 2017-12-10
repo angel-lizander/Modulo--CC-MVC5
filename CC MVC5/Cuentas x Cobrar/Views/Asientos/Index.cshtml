@@ -1,0 +1,71 @@
+﻿@model IEnumerable<CuentasPorCobrar.Domain.Asientos>
+
+@{
+    ViewBag.Title = "Gestion de Asientos";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Crear Asiento", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDClientes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cuenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoMovimiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaAsiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MontoAsiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDClientes)
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.Cuenta)*@
+            @Html.DropDownListFor(model => item.Cuenta, (IEnumerable<SelectListItem>)ViewBag.CuentasContable, new { @disabled = "disabled" })
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.TipoMovimiento)*@
+            @Html.DropDownListFor(model => item.TipoMovimiento, (IEnumerable<SelectListItem>)ViewBag.TipoMovimientos, new { @disabled = "disabled" })
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaAsiento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MontoAsiento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estado)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDAsientos }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDAsientos }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDAsientos })
+        </td>
+    </tr>
+}
+
+</table>

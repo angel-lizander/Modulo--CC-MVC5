@@ -1,0 +1,14 @@
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Release\CuentasPorCobrar.Domain.dll.config
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Release\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Release\CuentasPorCobrar.Domain.pdb
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\source\repos\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.pdb
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Release\CuentasPorCobrar.Domain.dll.config
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Release\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\bin\Release\CuentasPorCobrar.Domain.pdb
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.dll
+C:\Users\Angel Lizander\Downloads\Cuentas x Cobrar\Cuentas x Cobrar\Domain\CuentasPorCobrar.Domain\obj\Release\CuentasPorCobrar.Domain.pdb

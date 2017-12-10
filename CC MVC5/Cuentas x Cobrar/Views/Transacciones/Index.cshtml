@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CuentasPorCobrar.Domain.Transacciones>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoMovimiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDTipoDocumento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Monto)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoMovimiento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDTipoDocumento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monto)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDTransacciones }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDTransacciones }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDTransacciones })
+        </td>
+    </tr>
+}
+
+</table>

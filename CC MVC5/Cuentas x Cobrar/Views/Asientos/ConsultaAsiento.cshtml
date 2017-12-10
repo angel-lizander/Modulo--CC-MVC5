@@ -1,0 +1,136 @@
+﻿@model IEnumerable<CuentasPorCobrar.Domain.Asientos>
+
+@{
+    ViewBag.Title = "Consulta de Asientos";
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="form-group">
+                @Html.Label("Fecha Desde", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.Editor("FechaDesde", new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                @Html.Label("Fecha Hasta", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.Editor("FechaHasta", new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Buscar" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input id="btnProcesarAsientos" type="button" value="Procesar Asientos" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+<br />
+<br />
+<table id="tbl-asientos-resultados" class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDClientes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cuenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoMovimiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaAsiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MontoAsiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estado)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="data-row">
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDClientes)
+            </td>
+            <td>
+                @Html.DropDownListFor(model => item.Cuenta, (IEnumerable<SelectListItem>)ViewBag.CuentasContable, new { @disabled = "disabled" })
+            </td>
+            <td>
+                @Html.DropDownListFor(model => item.TipoMovimiento, (IEnumerable<SelectListItem>)ViewBag.TipoMovimientos, new { @disabled = "disabled" })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaAsiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontoAsiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+        </tr>
+    }
+</table>
+
+
+@section styles
+{
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#FechaDesde").datepicker({ dateFormat: "dd/mm/yy" });
+            $("#FechaHasta").datepicker({ dateFormat: "dd/mm/yy" });
+
+            var $btnProcesarAsiento = $('#btnProcesarAsientos'),
+                $tblResultadoConsulta = $('#tbl-asientos-resultados'),
+                rowsCount = $('#tbl-asientos-resultados tr.data-row').length;
+
+            if (!rowsCount) {
+                $btnProcesarAsiento.attr('disabled', 'disabled');
+            }
+
+            $('#btnProcesarAsientos').click(function () {
+                $.post('/Asientos/ProcesarResultadoAsientos', function (data) {
+                    if (data.status === 200) {
+                        alert('Asientos procesados exitosament');
+                    }
+                });
+            })
+        });
+    </script>
+}

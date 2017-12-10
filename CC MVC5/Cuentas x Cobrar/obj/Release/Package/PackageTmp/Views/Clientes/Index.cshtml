@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CuentasPorCobrar.Domain.Clientes>
+
+@{
+    ViewBag.Title = "Gestión de clientes";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Crear clientes", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cedula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Limite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cedula)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Limite)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estado)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDClientes }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDClientes }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDClientes })
+        </td>
+    </tr>
+}
+
+</table>

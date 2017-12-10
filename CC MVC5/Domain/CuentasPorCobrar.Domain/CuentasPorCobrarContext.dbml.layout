@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CuentasPorCobrarContext">
+  <DataContextMoniker Name="/CuentasPorCobrarContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0a78f8c3-6021-4beb-b190-a81e3c388131" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/CuentasPorCobrarContextDataContext/Usuarios" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b6879ba-c1c6-4517-ad00-0a7e401d5102" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d96c94c8-553c-4164-9a7a-a50de93417fa" absoluteBounds="1, 3.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/CuentasPorCobrarContextDataContext/Clientes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f838e03b-7a49-43b1-8bb7-6c9293bb4133" absoluteBounds="1.0150000000000001, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="511d5014-96f6-4567-bef4-f729cf9aa292" absoluteBounds="7.625, 0.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/CuentasPorCobrarContextDataContext/CuentasContable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d8b069e-050e-4a3d-b241-68fc21dee5c2" absoluteBounds="7.64, 1.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eeacca6d-8602-4b53-9908-1da2612324ba" absoluteBounds="8.375, 2.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/CuentasPorCobrarContextDataContext/Transacciones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d783dce-a7a9-4120-966e-1fee634b9e6f" absoluteBounds="8.39, 3.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de16c7c0-f6d8-4946-8fbb-0b87351675a8" absoluteBounds="4.625, 5.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CuentasPorCobrarContextDataContext/TipoDocumentos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b575b058-ec46-4bfc-a77a-88715282dd02" absoluteBounds="4.64, 5.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.96875 : 2.06899251302083); (7.96875 : 6.03929768880208); (6.625 : 6.03929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CuentasPorCobrarContextDataContext/CuentasContable/CuentasContable_TipoDocumentos" />
+      <nodes>
+        <classShapeMoniker Id="511d5014-96f6-4567-bef4-f729cf9aa292" />
+        <classShapeMoniker Id="de16c7c0-f6d8-4946-8fbb-0b87351675a8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5607c15c-9b46-4a6e-afe8-9a5790efd9e7" absoluteBounds="4.625, 1.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CuentasPorCobrarContextDataContext/Asientos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b5aad1f-521b-4a69-95ff-ff20a2127dcd" absoluteBounds="4.64, 1.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.90625 : 3.75); (2.90625 : 2.97439647265625); (4.625 : 2.97439647265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CuentasPorCobrarContextDataContext/Clientes/Clientes_Asientos" />
+      <nodes>
+        <classShapeMoniker Id="d96c94c8-553c-4164-9a7a-a50de93417fa" />
+        <classShapeMoniker Id="5607c15c-9b46-4a6e-afe8-9a5790efd9e7" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

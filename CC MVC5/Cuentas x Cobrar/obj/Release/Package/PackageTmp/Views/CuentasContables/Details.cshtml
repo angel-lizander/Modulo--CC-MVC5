@@ -1,0 +1,26 @@
+﻿@model CuentasPorCobrar.Domain.CuentasContable
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CuentasContable</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CuentasContables)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CuentasContables)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDCuentasContables }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
